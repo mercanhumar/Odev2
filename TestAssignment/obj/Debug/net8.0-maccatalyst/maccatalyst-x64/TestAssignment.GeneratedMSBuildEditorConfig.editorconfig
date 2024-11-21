@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TestAssignment
+build_property.ProjectDir = C:\Users\seren\source\repos\TestAssignment\TestAssignment\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/seren/source/repos/TestAssignment/TestAssignment/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestAssignment.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/seren/source/repos/TestAssignment/TestAssignment/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestAssignment.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/seren/source/repos/TestAssignment/TestAssignment/KrediHesapla.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestAssignment.KrediHesapla.xaml
+build_metadata.AdditionalFiles.TargetPath = KrediHesapla.xaml
+build_metadata.AdditionalFiles.RelativePath = KrediHesapla.xaml
+
+[C:/Users/seren/source/repos/TestAssignment/TestAssignment/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestAssignment.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/seren/source/repos/TestAssignment/TestAssignment/RenkSecici.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestAssignment.RenkSecici.xaml
+build_metadata.AdditionalFiles.TargetPath = RenkSecici.xaml
+build_metadata.AdditionalFiles.RelativePath = RenkSecici.xaml
+
+[C:/Users/seren/source/repos/TestAssignment/TestAssignment/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestAssignment.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/seren/source/repos/TestAssignment/TestAssignment/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestAssignment.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/seren/source/repos/TestAssignment/TestAssignment/ToDoList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestAssignment.ToDoList.xaml
+build_metadata.AdditionalFiles.TargetPath = ToDoList.xaml
+build_metadata.AdditionalFiles.RelativePath = ToDoList.xaml
+
+[C:/Users/seren/source/repos/TestAssignment/TestAssignment/VucutKitleIndexi.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TestAssignment.VucutKitleIndexi.xaml
+build_metadata.AdditionalFiles.TargetPath = VucutKitleIndexi.xaml
+build_metadata.AdditionalFiles.RelativePath = VucutKitleIndexi.xaml

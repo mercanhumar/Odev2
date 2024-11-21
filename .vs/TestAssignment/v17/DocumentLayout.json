@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\seren\\source\\repos\\TestAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\kredihesapla.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\kredihesapla.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\kredihesapla.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\kredihesapla.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\renksecici.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\renksecici.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\vucutkitleindexi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\vucutkitleindexi.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\todolist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\todolist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\vucutkitleindexi.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\vucutkitleindexi.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\renksecici.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\renksecici.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\todolist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\todolist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|c:\\users\\seren\\source\\repos\\testassignment\\testassignment\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F68E53BA-9F35-40C9-BD45-452A6FD693A6}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToDoList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\ToDoList.xaml.cs",
+              "RelativeDocumentMoniker": "TestAssignment\\ToDoList.xaml.cs",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\ToDoList.xaml.cs",
+              "RelativeToolTip": "TestAssignment\\ToDoList.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T21:03:30.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KrediHesapla.xaml",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\KrediHesapla.xaml",
+              "RelativeDocumentMoniker": "TestAssignment\\KrediHesapla.xaml",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\KrediHesapla.xaml",
+              "RelativeToolTip": "TestAssignment\\KrediHesapla.xaml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T18:46:03.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VucutKitleIndexi.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\VucutKitleIndexi.xaml.cs",
+              "RelativeDocumentMoniker": "TestAssignment\\VucutKitleIndexi.xaml.cs",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\VucutKitleIndexi.xaml.cs",
+              "RelativeToolTip": "TestAssignment\\VucutKitleIndexi.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T21:04:23.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VucutKitleIndexi.xaml",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\VucutKitleIndexi.xaml",
+              "RelativeDocumentMoniker": "TestAssignment\\VucutKitleIndexi.xaml",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\VucutKitleIndexi.xaml",
+              "RelativeToolTip": "TestAssignment\\VucutKitleIndexi.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T20:43:39.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RenkSecici.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\RenkSecici.xaml.cs",
+              "RelativeDocumentMoniker": "TestAssignment\\RenkSecici.xaml.cs",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\RenkSecici.xaml.cs",
+              "RelativeToolTip": "TestAssignment\\RenkSecici.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T21:01:36.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ToDoList.xaml",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\ToDoList.xaml",
+              "RelativeDocumentMoniker": "TestAssignment\\ToDoList.xaml",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\ToDoList.xaml",
+              "RelativeToolTip": "TestAssignment\\ToDoList.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T20:45:13.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KrediHesapla.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\KrediHesapla.xaml.cs",
+              "RelativeDocumentMoniker": "TestAssignment\\KrediHesapla.xaml.cs",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\KrediHesapla.xaml.cs",
+              "RelativeToolTip": "TestAssignment\\KrediHesapla.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T18:50:44.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RenkSecici.xaml",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\RenkSecici.xaml",
+              "RelativeDocumentMoniker": "TestAssignment\\RenkSecici.xaml",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\RenkSecici.xaml",
+              "RelativeToolTip": "TestAssignment\\RenkSecici.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T19:42:14.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\AppShell.xaml",
+              "RelativeDocumentMoniker": "TestAssignment\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\AppShell.xaml",
+              "RelativeToolTip": "TestAssignment\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T18:58:45.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "TestAssignment\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\AppShell.xaml.cs",
+              "RelativeToolTip": "TestAssignment\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T19:02:20.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TestAssignment\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\seren\\source\\repos\\TestAssignment\\TestAssignment\\MainPage.xaml",
+              "RelativeToolTip": "TestAssignment\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T18:06:23.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

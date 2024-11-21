@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestAssignment.VucutKitleIndexi"
+             Title="Vücut Kitle İndeksi Hesaplama">
+
+    <VerticalStackLayout Padding="18" Spacing="18">
+        <Frame CornerRadius="12" Padding="10" Margin="0,12,0,12" HasShadow="True" BorderColor="#FFBC8F8F">
+            <Label Text="VKI Formülü: kg / (boy²)"
+               TextColor="#FFBC8F8F"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+        </Frame>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="10">
+            <Label Text="Kilo (KG):"
+                   VerticalOptions="Center"
+                   FontSize="Medium" />
+            <Label x:Name="KiloLabel"
+                   Text="45"
+                   VerticalOptions="Center"
+                   FontSize="Medium" />
+        </StackLayout>
+        <Slider x:Name="KiloSlider"
+                Minimum="30"
+                Maximum="200"
+                Value="60"
+                ValueChanged="OnKiloSliderValueChanged"
+                ThumbColor="#FFBC8F8F"
+                MinimumTrackColor="#FFBC8F8F"/>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="10">
+            <Label Text="Boy (cm):"
+                   VerticalOptions="Center"
+                   FontSize="Medium" />
+            <Label x:Name="BoyLabel"
+                   Text="180"
+                   VerticalOptions="Center"
+                   FontSize="Medium" />
+        </StackLayout>
+        <Slider x:Name="BoySlider"
+                Minimum="100"
+                Maximum="250"
+                Value="180"
+                ValueChanged="OnBoySliderValueChanged"
+                ThumbColor="#FFBC8F8F"
+                MinimumTrackColor="#FFBC8F8F" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0,20,0,0">
+            <Label Text="VKI: "
+                   FontSize="Medium"
+                   TextColor="#FFBC8F8F" />
+            <Label x:Name="VkiLabel"
+                   Text="0.00"
+                   FontSize="Medium"
+                   TextColor="#FFBC8F8F" />
+            <Label x:Name="StatusLabel"
+                   Text="Normal"
+                   FontSize="Medium"
+                   TextColor="#FFBC8F8F"
+                   Padding="10,0,0,0" />
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

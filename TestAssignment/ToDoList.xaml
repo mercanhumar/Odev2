@@ -1,0 +1,70 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestAssignment.ToDoList"
+             BackgroundColor="#FF4B0082"
+             Title="Görev Listesi">
+
+    <Grid
+        RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto"
+        ColumnDefinitions="*,*,*"
+        RowSpacing="12"
+        ColumnSpacing="5">
+
+        <Frame CornerRadius="12" Padding="8" Margin="10" BackgroundColor="White" HasShadow="True" BorderColor="#FFBC8F8F" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="Center">
+            <Label Text="Görevlerim"
+                   TextColor="#FFBC8F8F"
+                   BackgroundColor="White"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+        </Frame>
+
+        <CollectionView
+            x:Name="tasksCollectionView"
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="12"
+            VerticalOptions="StartAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="8" Padding="8" Margin="0,8,0,8" HasShadow="True" BackgroundColor="White" BorderColor="#FFBC8F8F">
+                        <StackLayout Orientation="Horizontal" Spacing="12">
+                            <Label Text="{Binding}" TextColor="#FFBC8F8F" FontSize="Medium" VerticalOptions="Center" Margin="2"/>
+                            <ImageButton Source="newtask.png"
+                                         WidthRequest="22"
+                                         HeightRequest="22"
+                                         Clicked="EditTask_Clicked"
+                                         Padding="2"
+                                         HorizontalOptions="EndAndExpand"/>
+                            <ImageButton Source="delete.png"
+                                         WidthRequest="22"
+                                         HeightRequest="22"
+                                         Clicked="DeleteTask_Clicked"
+                                         Padding="2"
+                                         HorizontalOptions="End"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center"
+                     Grid.Row="1"
+                     
+                     Grid.Column="1">
+            <Button
+                Text="Görev Ekle"
+                x:Name="notEkleButton"
+                TextColor="#FFBC8F8F"
+                BackgroundColor="White"
+                Grid.Row="7"/>
+            <Button
+                Text="Kaydet"
+                x:Name="kaydetButton"
+                TextColor="#FFBC8F8F"
+                BackgroundColor="White"
+                Margin="0,8,0,0"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

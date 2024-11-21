@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestAssignment.KrediHesapla"
+            BackgroundColor="#FF4B0082"
+             Title="Kredi Hesaplama">
+
+    <Grid
+        RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto"
+        ColumnDefinitions="*,*,*"
+        RowSpacing="15"
+        ColumnSpacing="5">
+
+        <!-- Kredi Türü Seçimi -->
+        <Picker x:Name="KrediTuruPicker"
+                Title="Lütfen Kredi Türünü Seçiniz"
+                Grid.Row="0"
+                Grid.Column="0"
+                Margin="15"
+                Grid.ColumnSpan="3"
+                VerticalTextAlignment="Center"
+                BackgroundColor="#FFBC8F8F">
+
+            <Picker.Items>
+                <x:String>İhtiyaç Kredisi</x:String>
+                <x:String>Konut Kredisi</x:String>
+                <x:String>Taşıt Kredisi</x:String>
+                <x:String>Ticari Kredisi</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <!-- Kredi Miktarı -->
+        <Label Text="Kredi Miktarı"
+               Grid.Row="1"
+               Grid.Column="0"
+               VerticalTextAlignment="Start"
+               Padding="15,0,0,0"/>
+        <Entry x:Name="KrediTutarEntry"
+               Placeholder="Miktar Giriniz"
+               Grid.Row="1"
+               Grid.Column="1"
+               Grid.ColumnSpan="2"
+               Margin="0,0,15,0"
+               Keyboard="Numeric"/>
+
+        <!-- Faiz Oranı -->
+        <Label Text="Faiz Oranı"
+               Grid.Row="2"
+               Grid.Column="0"
+               VerticalTextAlignment="Center"
+               Padding="15,0,0,0"/>
+        <Entry x:Name="FaizOraniEntry"
+               Placeholder="Oran Giriniz"
+               Grid.Row="2"
+               Grid.Column="1"
+               Grid.ColumnSpan="2"
+               Margin="0,0,15,0"
+               Keyboard="Numeric"/>
+
+        <!-- Vade Süresi -->
+        <Label Text="Vade Süresi"
+               Grid.Row="3"
+               Grid.Column="0"
+               VerticalTextAlignment="Center"
+               Padding="15,0,0,0"/>
+        <Entry x:Name="VadeEntry"
+               Placeholder="Ay Giriniz"
+               Grid.Row="3"
+               Grid.Column="1"
+               Grid.ColumnSpan="2"
+               Margin="0,0,15,0"
+               Keyboard="Numeric"/>
+
+        <!-- Vade Slider -->
+        <Slider x:Name="VadeSlider"
+                Minimum="1"
+                Maximum="120"
+                ValueChanged="OnVadeSliderValueChanged"
+                Grid.Row="4"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                ThumbColor="#FFBC8F8F"
+                MinimumTrackColor="#FFBC8F8F"
+                Margin="20,10,20,0" />
+
+        <!-- Hesaplama Sonuçları -->
+        <StackLayout Grid.Row="5"
+                     Grid.Column="0"
+                     Grid.ColumnSpan="3"
+                     Padding="15"
+                     HorizontalOptions="Start">
+            <Label x:Name="AylikTaksitLabel"
+                   Text="Aylık Ödeme: "
+                   HorizontalTextAlignment="Start"/>
+            <Label x:Name="ToplamOdemeLabel"
+                   Text="Toplam Ödeme: "
+                   HorizontalTextAlignment="Start"/>
+            <Label x:Name="ToplamFaizLabel"
+                   Text="Ödenen Faiz: "
+                   HorizontalTextAlignment="Start"/>
+        </StackLayout>
+
+        <!-- Hesapla Butonu -->
+        <Button x:Name="HesaplaButton"
+                Text="Hesaplama Yap"
+                TextColor="White"
+                BackgroundColor="#FFBC8F8F"
+                Grid.Row="6"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Margin="15"/>
+
+    </Grid>
+</ContentPage>

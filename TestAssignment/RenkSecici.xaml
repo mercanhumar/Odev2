@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestAssignment.RenkSecici"
+             Title="Renk Seçimi"
+             BackgroundColor="#FF4B0082">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+
+        <Frame BackgroundColor="#FF7B68EE"
+               CornerRadius="10"
+               Padding="15"
+               HasShadow="True"
+               HorizontalOptions="Center"
+               WidthRequest="370">
+
+            <VerticalStackLayout Spacing="15">
+
+
+                <Label Text="Renk Seçici"
+                       FontSize="Large"
+                       HorizontalOptions="Center"
+                       TextColor="White" />
+
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="1">
+                    <Label Text="Kırmızı Ton:"
+                           TextColor="Red"
+                           VerticalOptions="Center"
+                           FontSize="Small" />
+                    <Slider x:Name="RedSlider"
+                            Minimum="0"
+                            Maximum="255"
+                            ValueChanged="OnColorSliderValueChanged"
+                            ThumbColor="Red"
+                            MinimumTrackColor="Red"
+                            WidthRequest="200" />
+                    <Label x:Name="RedValueLabel" Text="0" VerticalOptions="Center" FontSize="Medium" />
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="14">
+                    <Label Text="Yeşil Ton:"
+                           TextColor="Green"
+                           VerticalOptions="Center"
+                           FontSize="Small" />
+                    <Slider x:Name="GreenSlider"
+                            Minimum="0"
+                            Maximum="255"
+                            ValueChanged="OnColorSliderValueChanged"
+                            ThumbColor="Green"
+                            MinimumTrackColor="Green"
+                            WidthRequest="200" />
+                    <Label x:Name="GreenValueLabel" Text="0" VerticalOptions="Center" FontSize="Medium" />
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="10">
+                    <Label Text="Mavi Ton:"
+                           TextColor="Blue"
+                           VerticalOptions="Center"
+                           FontSize="Small" />
+                    <Slider x:Name="BlueSlider"
+                            Minimum="0"
+                            Maximum="255"
+                            ValueChanged="OnColorSliderValueChanged"
+                            ThumbColor="Blue"
+                            MinimumTrackColor="Blue"
+                            WidthRequest="200" />
+                    <Label x:Name="BlueValueLabel" Text="0" VerticalOptions="Center" FontSize="Medium" />
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="10">
+                    <Entry x:Name="HexCodeEntry"
+                           Text="#000000"
+                           IsReadOnly="True"
+                           HorizontalOptions="FillAndExpand"
+                           BackgroundColor="White"
+                           TextColor="Black" />
+                    <Button Text="📋"
+                            Clicked="OnCopyHexCodeClicked"
+                            BackgroundColor="Transparent"
+                            BorderColor="Transparent" />
+                </StackLayout>
+
+
+                <Button Text="Random"
+                        Clicked="OnRandomColorClicked"
+                        BackgroundColor="#FFBC8F8F"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        Padding="10,5" />
+            </VerticalStackLayout>
+        </Frame>
+
+
+        <BoxView x:Name="ColorPreviewBox"
+         WidthRequest="370"
+         HeightRequest="390"
+		 CornerRadius="10"
+         HorizontalOptions="Center"
+         VerticalOptions="Center" />
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
